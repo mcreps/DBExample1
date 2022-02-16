@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "LfjjQsGwby63ZIsoDIO23xcKRt0Ro2M04NLTaUdNeR0=",
+  "Source": "DBExample1",
+  "BasePath": "_content/DBExample1",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "DBExample1\\wwwroot",
+      "Source": "DBExample1",
+      "ContentRoot": "C:\\Users\\eecsm\\source\\repos\\DBExample1\\DBExample1\\wwwroot\\",
+      "BasePath": "_content/DBExample1",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\eecsm\\.nuget\\packages\\mudblazor\\6.0.6\\staticwebassets\\MudBlazor.min.css",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\eecsm\\.nuget\\packages\\mudblazor\\6.0.6\\staticwebassets\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\eecsm\\.nuget\\packages\\mudblazor\\6.0.6\\staticwebassets\\MudBlazor.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\eecsm\\.nuget\\packages\\mudblazor\\6.0.6\\staticwebassets\\MudBlazor.min.js",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\eecsm\\.nuget\\packages\\mudblazor\\6.0.6\\staticwebassets\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\eecsm\\.nuget\\packages\\mudblazor\\6.0.6\\staticwebassets\\MudBlazor.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\eecsm\\source\\repos\\DBExample1\\DBExample1\\wwwroot\\favicon.ico",
+      "SourceId": "DBExample1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\eecsm\\source\\repos\\DBExample1\\DBExample1\\wwwroot\\",
+      "BasePath": "_content/DBExample1",
+      "RelativePath": "favicon.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
+    }
+  ]
+}

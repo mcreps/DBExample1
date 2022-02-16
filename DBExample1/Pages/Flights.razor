@@ -1,0 +1,34 @@
+﻿@page "/flights"
+@using DBExample1.Models
+@using DBExample1.Data
+@inject FlightDataProvider _flightsDataProvider;
+
+<h3>Flights</h3>
+
+<MudTable Items="@_flightData" Hover="true" Breakpoint="Breakpoint.Sm" LoadingProgressColor="Color.Info">
+    <HeaderContent>
+        <MudTh>adshex</MudTh>
+        <MudTh>flightid</MudTh>
+        <MudTh>latitude</MudTh>
+        <MudTh>longitude</MudTh>
+        <MudTh>altitude</MudTh>
+    </HeaderContent>
+    <RowTemplate>
+        <MudTd DataLabel="Nr">@context.adshex</MudTd>
+        <MudTd DataLabel="Nr">@context.flight_id</MudTd>
+        <MudTd DataLabel="Nr">@context.latitude</MudTd>
+        <MudTd DataLabel="Nr">@context.longitude</MudTd>
+        <MudTd DataLabel="Nr">@context.altitude</MudTd>
+    </RowTemplate>
+</MudTable>
+
+
+@code {
+    private List<FlightData> _flightData;
+    private bool _lodaing = true;
+    
+    protected override async Task OnInitializedAsync()
+    {
+        _flightData = await _flightsDataProvider.GetFlightData();
+    }
+}
